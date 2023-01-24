@@ -1,0 +1,7 @@
+greeting_message.content:
+  path: '/greetings'
+  defaults:
+    _controller: '\Drupal\greeting_message\Controller\GreetingController::content'
+    _title: 'Greeting Message'
+  requirements:
+    _permission: 'access content'

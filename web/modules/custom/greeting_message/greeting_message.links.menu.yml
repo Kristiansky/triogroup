@@ -1,0 +1,6 @@
+greeting_message.admin:
+  title: 'Greeting message settings'
+  description: 'Edit the content of the greeting message'
+  parent: system.admin_config_development
+  route_name: greeting_message.content
+  weight: 100
