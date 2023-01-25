@@ -5,3 +5,10 @@ greeting_message.content:
     _title: 'Greeting Message'
   requirements:
     _permission: 'access content'
+greeting_message.settings:
+  path: '/admin/config/greeting_message/settings'
+  defaults:
+    _form: '\Drupal\greeting_message\Form\GreetingMessageSettingsForm'
+    _title: 'Greeting Message Settings'
+  requirements:
+    _permission: 'edit content'

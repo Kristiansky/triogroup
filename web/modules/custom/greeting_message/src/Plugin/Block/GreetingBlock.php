@@ -23,15 +23,8 @@
     public function build() {
       $config = $this->getConfiguration();
 
-      if (!empty($config['greeting_block_message'])) {
-        $message = $config['greeting_block_message'];
-      }
-      else {
-        $message = $this->t('Greetings!');
-      }
-
       return [
-        '#markup' => $message,
+        '#markup' => $config['greeting_block_message'],
       ];
     }
 
